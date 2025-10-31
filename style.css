@@ -1,0 +1,139 @@
+<style>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+header {
+  background-color: #ffb6b9;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about, .projects, .contact {
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #ff6f61;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffe3e0;
+  font-size: 0.9rem;
+}
+
+#about{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px;
+
+}
+.about{
+    flex:1;
+    margin-right: 20px;
+}
+
+.i{
+    box-shadow:0 7px 20px grey;
+    border-radius:360px;
+}
+img{
+border-radius:360px;
+}
+div{
+    border-radius:20px;
+    padding:20px;
+    background-color:white;
+    box-shadow:0 7px 20px grey;
+}
+h3{
+    color:skyblue;
+    
+}
+
+/* Apply animation to sections */
+section {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Header animation */
+header {
+  animation: fadeIn 1.2s ease-out;
+}
+
+/* Link hover effect */
+a {
+  color: #ff6f61;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+
+}
+
+a:hover {
+  color: hotpink;
+  transform: scale(1.05);
+  box-shadow:0 7px 20px grey;
+  border-radius:10px;
+}
+nav a{
+    margin-right:20px;
+    
+}
+nav{
+    display:flex;
+    gap: 20px;
+}
+
+/* Button-style link (optional) */
+.contact a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+ 
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact a:hover {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+
+
+</style>
